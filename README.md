@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Chatty
 
-## Getting Started
+Chatty is a real time chat using NextJS and websockets. It works similarly with WhatsApp or Telegram and provides real time messaging between two or more contacts.
 
-First, run the development server:
+## Screenshots
+![image](https://github.com/aryclenio/Chatty/assets/31252524/ccd46ef4-fedb-433b-8a3c-d5bd3c57d25e)
+![image](https://github.com/aryclenio/Chatty/assets/31252524/51014902-dc49-4a04-b960-4bac94033f2a)
+![image](https://github.com/aryclenio/Chatty/assets/31252524/a747004e-4ff4-4f7e-9dc0-18a6e474be86)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Create and join chat rooms
+- Send and receive text messages, images, and emojis
+- See online status and typing indicators of other users
+- Use dark or light mode according to your preference
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Technologies
 
-## Learn More
+- NextJS: A React framework for building fast and scalable web applications
+- React: A JavaScript library for creating user interfaces
+- TypeScript: A superset of JavaScript that adds static type checking
+- Websockets: A protocol for bidirectional communication between client and server
 
-To learn more about Next.js, take a look at the following resources:
+## Installation
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+To run this project locally, you need to have Node.js and npm installed on your machine. Then follow these steps:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. Clone this repository: `git clone https://github.com/your-username/chatty.git`
+2. Go to the project folder: `cd chatty`
+3. Install the dependencies: `npm install`
+4. Start the development server: `npm run dev`
+5. Open your browser and go to `http://localhost:3000`
 
-## Deploy on Vercel
+## License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This project is licensed under the MIT License. See the LICENSE file for more details.
